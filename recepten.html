@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       <title> Chef's Receptenboek </title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+       <header>
+              <h1>Invoer van uw recept</h1>
+              <hr>
+       </header>
+       <main>
+              <form name="recepten" method="POST" data-netlify="true">
+                     <p>
+                            <label>Naam: <input type="text" name="Naam" /></label>
+                     </p>
+                     <p>
+                            <label>Email: <input type="email" name="Email" /></label>
+                     </p>
+                     <p>
+                            <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+                     </p>
+                     <p>
+                            <label>Leeftijd: <input type="number" name="Leeftijd" /></label>
+                     </p>
+                     <p>
+                            <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+                     </p>
+                     <p>Geslacht:</p>
+                     <p> <input type="radio" id="man" name="geslacht" value="man">
+                            <label for="male">man</label>
+                            <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+                            <label for="vrouw">vrouw</label>
+                     </p>
+                     <p>Favoriete Cousine:</p>
+                     <p> <input type="checkbox" id="Frans" name="Frans" value="Frans">
+                            <label for="Frans"> Franse keuken</label>
+                            <input type="checkbox" id="Italiaans" name="Italiaans" value="Italiaans">
+                            <label for="Italiaans"> Italiaanse keuken</label>
+                            <input type="checkbox" id="Spaans" name="Spaans" value="Spaans">
+                            <label for="Spaans"> Spaanse keuken</label>
+                            <input type="checkbox" id="Arabisch" name="Arabisch" value="Arabisch">
+                            <label for="Arabisch"> Arabische keuken</label>
+                     </p>
+                     <p>
+                            <label for="kleur schort">Favoriete kleur short:</label>
+                            <input type="color" id="favcolor" name="favoriete kleur">
+                     </p>
+                     <p>
+                            <label>Biografie: <textarea name="Biografie" rows="10" cols="50"></textarea></label>
+                     </p>
+                     <p>
+                            <label for="myfile">Upload uw recept:</label>
+                            <input type="file" id="myfile" name="Recept Upload">
+                     </p>
+                     <p>
+                            <label for="website">Uw website:</label>
+                            <input type="url" id="website" name="Website">
+                     </p>
+                     <p>
+                            <label> Reset hier het formulier</label><input type="reset">
+                     </p>
+                     <p>
+                            <button type="submit">Verstuur</button>
+                     </p>
+              </form>
+
+       </main>
+       <footer>
+              <nav><a href="index.html"> terug naar homepage </a></nav>
+       </footer>
+</body>
+
+</html>

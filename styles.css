@@ -1,0 +1,54 @@
+.websitetitle {
+        margin: 20px;
+        width: 400px;
+        }
+
+body {
+    color:white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    }
+
+h1 {
+    color: lightblue;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 40px;
+    }
+
+h2 {
+    color: lightslategrey;
+    font-family: Verdana, Geneva;
+    font-size: 25px;
+    }    
+
+.receptenboek {
+    border: 5px solid silver;
+    width: 150px; 
+    margin: 20px;
+    }
+
+p   {
+    font-size: 15px;
+    }
+
+.navlist li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin: 10px;
+    }
+
+@media (min-width: 1024px) {
+
+p   {
+    font-size: 15px;
+    line-height: 30px;
+    }
+
+h2  {
+    font-size: 20px;
+    }
+   
+    }
